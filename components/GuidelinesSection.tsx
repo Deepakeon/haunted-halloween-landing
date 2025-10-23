@@ -334,7 +334,9 @@ export function GuidelinesSection() {
         🕯️
       </motion.div>
       <motion.div className="w-full p-12 mt-12 grid place-items-center">
-      <button
+      <a
+        href="https://portfolio-5ge.pages.dev/"
+        target="_blank"
         className="group relative inline-flex items-center gap-3 bg-purple-700/10 border border-purple-700 text-white font-semibold py-4 px-10 md:px-14 rounded-lg text-base md:text-lg transition-all duration-100 transform hover:scale-105 shadow-xl overflow-hidden cursor-pointer"
       >
         
@@ -346,7 +348,7 @@ export function GuidelinesSection() {
           👻
         </span>
         
-      </button>
+      </a>
 
       {/* Simple copyright */}
       <div className="mt-12 text-purple-300/50 text-sm">
