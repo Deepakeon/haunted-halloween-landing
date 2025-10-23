@@ -23,7 +23,12 @@ const timeline = [
   }
 ];
 
-const HexagonTimeline = ({ event, index }) => {
+const HexagonTimeline = ({ event, index }: {event: {
+    era: string,
+    icon: string,
+    title: string,
+    description: string
+  }, index: number}) => {
   const ref = useRef(null);
   const inView = useInView(ref, { amount: 0.3 });
   const controls = useAnimation();

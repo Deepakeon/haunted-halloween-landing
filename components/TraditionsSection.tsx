@@ -28,11 +28,18 @@ const traditions = [
   },
 ];
 
-const TraditionCard = ({ tradition, index, expandedIndex, setExpandedIndex }) => {
+const TraditionCard = ({ tradition, index, expandedIndex, onToggle }: {
+  tradition: {
+    icon: string,
+    title: string,
+    description:
+    string,
+  }, index: number, expandedIndex: number | null, onToggle: (index: number | null) => void
+}) => {
   const isExpanded = expandedIndex === index;
 
   const toggle = () => {
-    setExpandedIndex(isExpanded ? null : index);
+    onToggle(isExpanded ? null : index);
   };
 
   return (
@@ -65,7 +72,7 @@ const TraditionCard = ({ tradition, index, expandedIndex, setExpandedIndex }) =>
         {/* CTA - only show if not expanded */}
         {!isExpanded && (
           <motion.div
-          className="flex flex-col items-center justify-center mt-4"
+            className="flex flex-col items-center justify-center mt-4"
           >
             <div className="text-orange-400">
               {tradition.title}
@@ -131,7 +138,7 @@ const TraditionCard = ({ tradition, index, expandedIndex, setExpandedIndex }) =>
 };
 
 export function TraditionsSection() {
-  const [expandedIndex, setExpandedIndex] = useState(null);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
   return (
     <section className="relative py-20 bg-black overflow-hidden min-h-dvh">
@@ -152,7 +159,7 @@ export function TraditionsSection() {
               tradition={tradition}
               index={index}
               expandedIndex={expandedIndex}
-              setExpandedIndex={setExpandedIndex}
+              onToggle={setExpandedIndex}
             />
           ))}
         </div>
