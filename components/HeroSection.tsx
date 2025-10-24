@@ -13,7 +13,7 @@ export const HeroSection = () => {
       >
         <div
           className="w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: `url(/hero-halloween.jpg)` }}
+          style={{ backgroundImage: `url(hero-halloween.jpg)` }}
         />
         <div className="absolute inset-0 bg-linear-to-b from-background/50 via-background/30 to-background" />
       </motion.div>
