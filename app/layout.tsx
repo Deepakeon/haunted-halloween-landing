@@ -29,6 +29,29 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <head>
+        <title>Halloween 2025 | Explore Ancient Origins, Sacred Traditions & Spooky Fun</title>
+        <meta
+          name="description"
+          content="Dive into Halloween's mystical journey: from ancient Celtic origins to sacred traditions. Discover spooky stories, dos & don'ts, and festive guides for 2025!"
+        />
+        <meta name="robots" content="index, follow" />
+
+        <meta property="og:title" content="Halloween 2025 | Spooky Ancient Origins & Traditions" />
+        <meta property="og:description" content="Explore Halloween's mystical history, sacred traditions, and festive guides for 2025." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="hero-halloween.jpg" />
+        <meta property="og:url" content={typeof window !== "undefined" ? window.location.origin : "https://deepakeon.github.io/haunted-halloween-landing/"} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Halloween 2025 | Spooky Ancient Origins & Traditions" />
+        <meta name="twitter:description" content="Explore Halloween's mystical history, sacred traditions, and festive guides for 2025." />
+        <meta name="twitter:image" content="hero-halloween.jpg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </head>
     </html>
   );
 }

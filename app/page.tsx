@@ -5,7 +5,7 @@ import { TraditionsSection } from '@/components/TraditionsSection';
 import { GuidelinesSection } from '@/components/GuidelinesSection';
 
 function App() {
-   return (
+  return (
     <main className="overflow-x-hidden">
       <HeroSection />
       <OriginsSection />
