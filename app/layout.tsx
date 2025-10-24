@@ -27,7 +27,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <GoogleAnalytics gaId="G-VH9GGYME7H" />
         <meta
           name="description"
           content={metadata?.description ?? ""}
@@ -54,6 +53,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+        <GoogleAnalytics gaId="G-VH9GGYME7H" />
       
     </html>
   );
