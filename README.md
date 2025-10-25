@@ -5,6 +5,11 @@ Dive into the eerie atmosphere of Halloween with creepy visuals, smooth animatio
 
 ---
 
+## 🌐 Live Demo
+
+👉 [https://deepakeon.github.io/haunted-halloween-landing/](https://deepakeon.github.io/haunted-halloween-landing/)
+
+
 ## 🕸️ Features
 
 - 🧛‍♂️ **Halloween Aesthetic:** Handcrafted visuals and styles inspired by ancient traditions and spooky tales.  
