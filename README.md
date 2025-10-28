@@ -16,7 +16,6 @@ Dive into the eerie atmosphere of Halloween with creepy visuals, smooth animatio
 - 🌑 **Responsive Design:** Optimized for all devices — from haunted desktops to ghostly mobiles.  
 - 💀 **Performance Optimized:** Built with Next.js 16 and Tailwind CSS for lightning-fast performance.  
 - 🕯️ **SEO Ready:** Includes meta tags and Open Graph setup for better visibility in the mortal realm.  
-- 🧟 **Interactive Footer:** “Meet the Spooky Zombie” section inviting users to explore your portfolio.
 
 ---
 
