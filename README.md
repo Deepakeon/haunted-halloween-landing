@@ -5,6 +5,15 @@ Dive into the eerie atmosphere of Halloween with creepy visuals, smooth animatio
 
 ---
 
+## 🏆 Frontend Challenge Submission
+
+This repository was created as a submission for **[Frontend Challenge: Halloween Edition](https://dev.to/challenges/frontend-2025-10-15)**. 
+
+- **Challenge:** Build a polished, functional landing page with a Halloween theme. This could be for a halloween history lesson, a fictional product, halloween event, or anything you can imagine as long as it captures the spirit of the season and demonstrates excellent frontend fundamentals.
+- **Timeline:** Built in 3 days.
+- **Submission:** https://dev.to/deepak_singh_fa1c5e26bd82/haunted-halloween-frontend-challenge-4e92
+
+
 ## 🌐 Live Demo
 
 👉 [https://deepakeon.github.io/haunted-halloween-landing/](https://deepakeon.github.io/haunted-halloween-landing/)
